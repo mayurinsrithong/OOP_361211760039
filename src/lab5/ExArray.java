@@ -23,7 +23,7 @@ public class ExArray {
         //error
         //System.out.print(x[5]);
         //System.out.print(x[-1]); //indexOutofBound Exception
-        //df
+        //
 
 
 
