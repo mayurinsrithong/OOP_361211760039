@@ -1,13 +1,13 @@
 package lab8;
 
-public class Circle extends GraphicObjec {
+public class Circle extends GraphicObject {
     final static double PI = 3.141;
     private double radius;
 
     @Override
     public void findArea() {
         double area = PI * radius * radius;
-        System.out.println("The are of circle with  : "+this.radius+"radius="+area);
+        System.out.println("The are of circle : "+area);
     }
     //getter and setter
 
@@ -19,3 +19,4 @@ public class Circle extends GraphicObjec {
         this.radius = radius;
     }
 }
+

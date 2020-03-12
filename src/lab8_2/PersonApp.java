@@ -4,9 +4,9 @@ public class PersonApp {
     public static void main(String[] args) {
 
         //create objiects
-        Person P1 = new Person("Mayurin Srithong", "1997");
-        Person P2 = new sheriff("Piyapne Senanus","1984", "Nakornsi thammarat");
-        Person P3 = new Pofice("Nattapong Kaewboonma","1980", "Nakhon");
+        Preson P1 = new Preson("chadarat", "1997");
+        Preson P2 = new Sheriff("Srihamak","1994", "thungsong");
+        Preson P3 = new Police("warayu","1994", "Nakhon");
 
         P1.introduce();
         P2.introduce();

@@ -1,9 +1,9 @@
 package lab8;
 
-public class Computer implements Volume,Natwork {
+public class Computer implements IVolum,IConnect {
     @Override
     public void connect() {
-
+        
     }
 
     @Override
@@ -12,12 +12,12 @@ public class Computer implements Volume,Natwork {
     }
 
     @Override
-    public void increaseVolume(int x) {
+    public void increaseVol(double x) {
 
     }
 
     @Override
-    public void decreaseVolume(int x) {
+    public void decreaseVol(double y) {
 
     }
 }

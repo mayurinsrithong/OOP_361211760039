@@ -1,34 +1,28 @@
 package lab8;
 
-public class triangle extends GraphicObjec {
-    private double width;
-    private double radius;
-
-    public triangle(double base, double height){
-        this.width=base;
-        this.radius=height;
-
-    }
+public class triangle extends GraphicObject {
+    private double base;
+    private double height;
 
     @Override
     public void findArea() {
-        double area = 0.5 * width * radius;
-        System.out.println("The area of Triangle "+width+"and heigt ="+radius+"= " + area);
+        double area = 0.5 * base * height;
+        System.out.println("The area of Triangle: " + area);
     }//getter and setter
 
     public double getBase() {
-        return width;
+        return base;
     }
 
     public void setBase(double base) {
-        this.width = base;
+        this.base = base;
     }
 
     public double getHeight() {
-        return radius;
+        return height;
     }
 
     public void setHeight(double height) {
-        this.radius = height;
+        this.height = height;
     }
 }

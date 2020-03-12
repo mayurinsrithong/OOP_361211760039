@@ -1,9 +1,9 @@
 package lab8_2;
 
-public class sheriff extends Person {
+public class Sheriff extends Preson {
     private String workState;
 
-    public sheriff(String name, String dateOfBirth,String workState) {
+    public Sheriff(String name, String dateOfBirth,String workState) {
         super(name, dateOfBirth);
         this.workState = workState;
     }
@@ -30,6 +30,5 @@ public class sheriff extends Person {
         return "Sheriff{" +
                 "workState='" + workState + '\'' +
                 "} " + super.toString();
-
     }
 }
