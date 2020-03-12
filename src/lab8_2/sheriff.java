@@ -30,5 +30,6 @@ public class sheriff extends Person {
         return "Sheriff{" +
                 "workState='" + workState + '\'' +
                 "} " + super.toString();
+
     }
 }
